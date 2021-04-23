@@ -1,0 +1,69 @@
+body{
+  background-color: whitesmoke;
+}
+
+#avatar{
+  width:250px;
+  border-radius: 50%;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#landing{
+	height: 87vh;
+	margin-top: 85px;
+	/* Center the content vertically using flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery{
+	height: 87vh;
+	/* Center the content vertically using flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color:#ff5775;
+}
+
+.tools{
+	padding: 25px;
+	height: 230px;
+	border:5px solid #f2f2f2;
+	margin:20px;
+	width: 75%;
+	color:white;
+	border-radius:15px;
+}
+
+/* Bootstrap Overrides */
+.jumbotron{
+	background-color: ;
+}
+
+.white{
+	background-color: #ff5775;
+}
